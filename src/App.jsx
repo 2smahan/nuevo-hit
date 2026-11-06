@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import confetti from 'canvas-confetti'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import PlanetScene from './PlanetScene' 
+import PlanetScene from './PlanetScene'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,24 +32,22 @@ const lanzarConfetti = () => {
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
         </div>
-        <button
+              <button
           type="button"
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
           Count is {count}
+        </button>
 
-         <button
-  type="button"
-  className="counter"
-  style={{ marginLeft: '10px', backgroundColor: '#4f46e5' }} 
-  onClick={lanzarConfetti}
->
-  ¡Lanzar Confetti!
-</button>
-
-
-
+        <button
+          type="button"
+          className="counter"
+          style={{ marginLeft: '10px', backgroundColor: '#4f46e5' }}
+          onClick={lanzarConfetti}
+        >
+          ¡Lanzar Confetti!
+      
         </button>
       </section>
 
