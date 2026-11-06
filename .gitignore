@@ -8,10 +8,12 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Son estas dos carpetas:
-# No se suben porque se crean solas,y si se suben pesan mucho y dan fallos al trabajar en equipo.
+# No es necesario subir estos archivos,ya que el sistema los genera
+ de forma automática, y además, incluirlos en el repositorio  puede afectar negativamente
+ al trabajo en equipo, ya que su gran tamaño pesa mucho y provoca fallos.
 
 
-# Los inconvenientes son:
+
 node_modules
 dist
 dist-ssr
