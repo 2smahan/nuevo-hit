@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Confetti from 'react-confetti'
 import confetti from 'canvas-confetti'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
@@ -19,6 +20,7 @@ const lanzarConfetti = () => {
 
   return (
     <>
+     <Confetti recycle={false} />
     <PlanetScene />
       <section id="center">
         <div className="hero">
