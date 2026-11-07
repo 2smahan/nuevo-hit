@@ -17,7 +17,7 @@ En este proyecto he trabajado con React y Vite. He probado dos librerías para h
 
 Si `node_modules/` está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?
 
-Sí. Al borrar una dependencia con `npm uninstall`, se elimina de `node_modules` y también se actualizan los archivos `package.json` y `package-lock.json`. Estos cambios sí se pueden subir al repositorio con Git.
+Sí , al borrar una dependencia con `npm uninstall`, si se elimina de `node_modules` y también se actualizan los archivos `package.json` y `package-lock.json`, estos cambios sí se pueden subir al repositorio con Git.
 
 ## Web publicada
 
