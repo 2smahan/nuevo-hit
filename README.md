@@ -21,4 +21,4 @@ Sí , al borrar una dependencia con `npm uninstall`, si se elimina de `node_modu
 
 ## Web publicada
 
-Enlace: pendiente de publicar.
+Enlace: (https://2smahan.github.io/nuevo-hit-web/)
