@@ -1,16 +1,24 @@
-# React + Vite
+# Mi proyecto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+En este proyecto he trabajado con React y Vite. He probado dos librerías para hacer efectos de confeti y también he añadido una escena 3D con un planeta y un OVNI.
 
-Currently, two official plugins are available:
+## Capturas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### React Confetti
+![React Confetti](screenshots/react-confetti.png)
 
-## React Compiler
+### Canvas Confetti
+![Canvas Confetti](screenshots/canvas-confetti.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Escena 3D
+![Escena 3D](screenshots/three.png)
 
-## Expanding the Oxlint configuration
+## Pregunta sobre node_modules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Si `node_modules/` está excluida, ¿borrar una dependencia hace alguna acción sobre el repositorio? ¿Cuál?
+
+Sí. Al borrar una dependencia con `npm uninstall`, se elimina de `node_modules` y también se actualizan los archivos `package.json` y `package-lock.json`. Estos cambios sí se pueden subir al repositorio con Git.
+
+## Web publicada
+
+Enlace: pendiente de publicar.
